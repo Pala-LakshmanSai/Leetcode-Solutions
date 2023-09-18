@@ -10,7 +10,7 @@ class Solution {
         for(int i = n; i < 2*n; i++){
             result[j] = nums[i];
             j = j + 2;
-        }//sdad
+        }
         return result;
     }
 }
