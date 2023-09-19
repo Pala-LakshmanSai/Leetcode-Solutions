@@ -14,6 +14,11 @@ class Solution {
                 start = middle + 1;
             }       
         }
-        return letters[start % letters.length];
+        if(target >= letters[letters.length - 1]){
+            return letters[0];
+        }
+        else{
+            return letters[start];
+        }
     }
 }
