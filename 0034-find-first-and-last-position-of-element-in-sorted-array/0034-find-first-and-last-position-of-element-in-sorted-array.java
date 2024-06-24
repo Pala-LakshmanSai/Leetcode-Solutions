@@ -1,33 +1,35 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int [] result = {-1, -1};
-        result[0] = search(nums, target, true);
-        result[1] = search(nums, target, false);
-        return result;
-    }
-    int search(int[] arr, int target, boolean findStartIndex){
-        int start = 0;
-        int end = arr.length - 1;
-        int ans = -1;
-        while (start <= end) {
-            int middle = start + (end - start) / 2;
-            if(arr[middle] == target){
-                ans = middle;
-                if (findStartIndex) {
-                    end = middle - 1;
-                }
-                else{
-                    start = middle + 1;
-                }
+        int[] ans=new int[2];
+        Arrays.fill(ans,-1);
+        int low=0;
+        int high=nums.length-1;
+        while(low<=high){
+            int mid=(low+high)/2;
+            if(nums[mid]==target){
+                ans[0]=mid;
+                high=mid-1;
             }
-            else if (arr[middle] > target){
-                end = middle -1;
+            else if(nums[mid]<target){
+                low=mid+1;
+            }else{
+                high=mid-1;
             }
-            else{
-                start = middle + 1;
+        }
+        low=0;
+        high=nums.length-1;
+        while(low<=high){
+            int mid=(low+high)/2;
+            if(nums[mid]==target){
+                ans[1]=mid;
+                low=mid+1;
+            }
+            else if(nums[mid]>target){
+                high=mid-1;
+            }else{
+                low=mid+1;
             }
         }
         return ans;
-    } 
-
+    }
 }
