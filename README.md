@@ -13,8 +13,10 @@ This repository includes solutions for the leetcode problems i have solved.
 # Array
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0035-search-insert-position) |
 # Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0035-search-insert-position) |
