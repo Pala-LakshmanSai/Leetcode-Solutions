@@ -25,6 +25,7 @@ This repository includes solutions for the leetcode problems i have solved.
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -33,6 +34,7 @@ This repository includes solutions for the leetcode problems i have solved.
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -45,5 +47,6 @@ This repository includes solutions for the leetcode problems i have solved.
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/0015-3sum) |
 | [1019-squares-of-a-sorted-array](https://github.com/Pala-LakshmanSai/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 <!---LeetCode Topics End-->
